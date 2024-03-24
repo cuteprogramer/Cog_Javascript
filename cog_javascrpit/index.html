@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Button Color</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+</head>
+<body>
+    <section id="header" >
+        <div class="logo" data-aos="zoom-out">
+            <h1>Congifyz</h1>
+        </div>
+        <div class="navbar"data-aos="zoom-out">
+            <ul class="menus">
+                <li class="menu"><a class="menu_name active" href="">Home</a></li>
+                <li class="menu"><a class="menu_name" href="">About</a></li>
+                <li class="menu"><a class="menu_name" href="">Service</a></li>
+                <li class="menu"><a class="menu_name" href="">Explore</a></li>
+            </ul>
+        </div>
+        <div class="getstrat"data-aos="zoom-out">
+            <button class="stratbutt"><a class="linkbutt" href="">GetStart</a></button>
+        </div>
+    </section>
+
+
+    <section id="content">
+        <div class="con" id="colorButton">
+            <div class="input"data-aos="zoom-in-up">
+                <input id="colorButton" class="inputbox" type="text" placeholder="Enter Your Name..."/>
+                <button class="button" onclick="changeColor()">Submit</button>
+            </div>
+            <form>
+                <input class="button" type="submit" value="click Me I Alert YOU" onclick="showGreeting(event)">
+            </form>
+
+        <div class="calc"> 
+            <label for="num1">Number 1:</label>
+            <input class="num" type="number" id="num1" placeholder="num1"><br><br>
+          
+            <label for="num2">Number 2:</label>
+            <input class="num" type="number" id="num2" placeholder="num2"><br><br>
+          
+            <button class="result" onclick="addNumbers()">Add</button><br><br>
+          
+            <p id="result"></p>
+        </div>
+        
+
+  
+            <!-- <button class="button" id="" onclick="getGreeting()">click me</button> -->
+            <div class="content_text" data-aos="zoom-in-up">
+                <h1 class="line" style="text-align: center; color: white; font-size: xx-large; padding: 10px;">Web Development</h1>
+                
+                <p>Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser. It may, however, also include web design, web programming, and database management.A web developer's job is to create websites. While their primary role is to ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website's performance and capacity.Web development is used to create various web applications offering specific functions and services. Examples include online banking systems, project management tools, social media platforms, and email services.While web development typically refers to web markup and coding, website development includes all related development tasks, such as client-side scripting, server-side scripting, server and network security configuration, eCommerce development, and content management system (CMS) development.</p>
+            </div>   
+        </div>  
+        
+        
+    </section>
+<div id="color">
+
+</div>
+
+    
+
+  <script src="index.js">
+  </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js" src="../task 2/task2.js"></script>
+<script>
+    AOS.init({
+  duration: 1200,
+})
+</script>
+</body>
+</html>
